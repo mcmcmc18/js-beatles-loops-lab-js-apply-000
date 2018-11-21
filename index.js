@@ -23,7 +23,7 @@ var i = 0;
 do {
   var saying = "I love the Beatles!";
   loveArray.push(saying);
-  i++;
+  i==;
 }
   while (i < num);
   return loveArray;
