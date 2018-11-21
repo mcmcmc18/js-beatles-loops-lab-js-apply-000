@@ -19,13 +19,12 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(num){
 var loveArray = [];
-var newNum = num + 1;
-var counter = 
+var counter = 0;
 do {
   var saying = "I love the Beatles!";
   loveArray.push(saying);
+  i++;
 }
-  while (loveArray.length < newNum);
-  newNum
+  while (i < num);
   return loveArray;
 }
